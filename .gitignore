@@ -1,0 +1,15 @@
+# Ambiente virtual - nunca sobe pro GitHub
+venv/
+
+# Banco de dados local
+*.db
+
+# Variáveis de ambiente (senhas, chaves)
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
