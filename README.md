@@ -83,6 +83,7 @@ Acesse: http://localhost:8000/docs
 ---
 
 ## 📁 Estrutura do projeto
+```
 todo-api/
 ├── app/
 │   ├── main.py          # Entrada da aplicação
@@ -95,7 +96,7 @@ todo-api/
 │       └── tasks.py     # Rotas de tarefas
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 Desenvolvido por [Isaac Alvarenga](https://github.com/isawc)
