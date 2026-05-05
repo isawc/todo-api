@@ -14,7 +14,7 @@ SECRET_KEY = "chave-isaac"
 ALGORITHM = "HS256"  # algoritmo de criptografia do token
 ACCESS_TOKEN_EXPIRE_MINUTES = 30  # token expira em 30 minutos
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto", bcrypt__rounds=12)
 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
