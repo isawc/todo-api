@@ -28,6 +28,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
+## 🌐 API Online
+
+A API está disponível em produção:
+
+📎 https://todo-api-production-f85b9.up.railway.app/docs
+
 ## Status
 
 🚧 Em desenvolvimento
