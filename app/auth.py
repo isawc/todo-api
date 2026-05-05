@@ -1,3 +1,6 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime, timedelta
 from typing import Optional
 
@@ -10,7 +13,7 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app import models, schemas
 
-SECRET_KEY = "chave-isaac"
+SECRET_KEY = os.getenv("SECRET_KEY", "chave-local-fallback")
 ALGORITHM = "HS256"  # algoritmo de criptografia do token
 ACCESS_TOKEN_EXPIRE_MINUTES = 30  # token expira em 30 minutos
 
